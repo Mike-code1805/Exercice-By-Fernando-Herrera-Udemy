@@ -1,17 +1,4 @@
-# Getting Started with Create React App
+# LazyLoad - Chunks - React-Router-Dom V5
+This section makes use of LazyLoad for a full component module.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-
+Using lazyLoad we can load each of our components independently or on demand (lazyLoad through components and lazyLoad through a master page or main layout, complete modules). The use of these will depend on the needs and experience of users.
