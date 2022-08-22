@@ -37,3 +37,12 @@ export interface InitialValues {
   maxCount?: number;
   minCount?: number;
 }
+
+export interface ProductCartHandlers {
+  count: number;
+  isMaxCountReached: boolean;
+  maxCount?: number;
+  product: Product;
+  increaseBy: (value: number) => void;
+  reset: () => void;
+}
